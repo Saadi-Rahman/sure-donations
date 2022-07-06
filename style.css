@@ -1,3 +1,181 @@
-body{
-    font-family: 'Roboto', sans-serif;
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.banner-sec {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.30),black),url(images/donation5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.intro {
+    color: white;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: rgb(41, 41, 41);
+    font-size: 45px;
+    font-weight: 800;
+    margin-top: 150px;
+    margin-bottom: 25px;
+}
+
+p {
+    font-weight: 400;
+    font-size: large;
+    padding-bottom: 20px;
+}
+
+.donate-button {
+    text-decoration: none;
+    font-weight: 800;
+    font-size: large;
+    color: white;
+    background-image: linear-gradient(orange, tomato);
+    padding: 18px 36px;
+    border-radius: 25px;
+}
+
+.donate-sec {
+    text-align: center;
+}
+
+.amount {
+    display: flex;
+    margin-bottom: 40px;
+    justify-content: center;
+}
+
+.amount-card {
+    height: 120px;
+    width: 150px;
+    color: rgb(112, 112, 112);
+    background-color: rgb(255, 250, 242);
+    border-radius: 8px;
+    text-align: center;
+    padding-top: 25px;
+    margin: 10px;
+}
+
+.amount-card h3 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+#amount-card-4 {
+    border: 2px solid orange;
+    color: orange;
+    background-color: rgb(255, 246, 232);
+}
+
+.input-data {
+    height: 40px;
+    margin-bottom: 50px;
+}
+
+.input-data input {
+    height: 100%;
+    width: 850px;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    border-bottom: 2px solid rgb(167, 167, 167);
+}
+
+.d-plan-sec {
+    text-align: center;
+}
+
+.d-plan {
+    display: flex;
+    margin-bottom: 80px;
+    justify-content: center;
+}
+
+.d-plan-card {
+    height: 300px;
+    width: 300px;
+    text-align: left;
+    border-radius: 5px;
+    margin: 12px;
+    padding: 80px 20px 0 40px;
+}
+
+#d-plan-card-1 {
+    background-color: rgb(223, 243, 245);
+}
+
+#d-plan-card-2 {
+    background-color: rgb(254, 231, 231);
+}
+
+#d-plan-card-3 {
+    background-color: rgb(255, 243, 224);
+}
+
+.help-sec {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.10),rgba(0, 0, 0, 0.751)),url(images/donation7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+    margin: 8.5%;
+}
+
+.help-sec h2 {
+    font-size: 50px;
+    text-align: left;
+    color: white;
+}
+
+.help-card {
+    height: 450px;
+    width: 400px;
+    text-align: left;
+    background-color: aliceblue;
+    border-radius: 8px;
+    padding: 50px 50px 0 50px;
+}
+
+.help-card h3 {
+    color: rgb(41, 41, 41);
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.help-card p {
+    margin-bottom: 30px;
+}
+
+#contribute {
+    padding: 15px 30px;
+    border-radius: 25px;
+}
+
+.update-sec {
+    text-align: center;
 }
